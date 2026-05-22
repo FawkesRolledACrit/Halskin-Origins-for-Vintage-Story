@@ -1,0 +1,217 @@
+[
+  {
+    "code": "diplomatic",
+    "type": "positive",
+    "attributes": {
+      "tradingPriceModifier": -0.2
+    }
+  },
+  {
+    "code": "educated",
+    "type": "positive",
+    "attributes": {
+      "temporalGearTLRepairCost": -1,
+      "mechanicalsDamage": 0.2
+    }
+  },
+  {
+    "code": "refined",
+    "type": "positive",
+    "attributes": {
+      "armorDurabilityLoss": -0.15,
+      "toolDurability": 0.1
+    }
+  },
+  {
+    "code": "technical",
+    "type": "positive",
+    "attributes": {
+      "craftingTableSpeed": 0.25,
+      "metalDurability": 0.2
+    }
+  },
+  {
+    "code": "hardy",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 4,
+      "miningSpeedMul": 0.15
+    }
+  },
+  {
+    "code": "precise",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsAcc": 0.3,
+      "rangedWeaponsDamage": 0.15
+    }
+  },
+  {
+    "code": "resourceful",
+    "type": "positive",
+    "attributes": {
+      "forageDropRate": 0.25,
+      "vesselContentsDropRate": 0.15
+    }
+  },
+  {
+    "code": "multilingual",
+    "type": "positive",
+    "attributes": {
+      "tradingPriceModifier": -0.15
+    }
+  },
+  {
+    "code": "observant",
+    "type": "positive",
+    "attributes": {
+      "rangedWeaponsAcc": 0.25,
+      "animalSeekingRange": -0.3
+    }
+  },
+  {
+    "code": "analytical",
+    "type": "positive",
+    "attributes": {
+      "mechanicalsDamage": 0.3,
+      "craftingTableSpeed": 0.15,
+      "rangedWeaponsDamage": 0.1
+    }
+  },
+  {
+    "code": "furtive",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": -0.4,
+      "walkspeed": 0.15
+    }
+  },
+  {
+    "code": "navigational",
+    "type": "positive",
+    "attributes": {
+      "walkspeed": 0.2,
+      "animalLootDropRate": 0.1
+    }
+  },
+  {
+    "code": "agricultural",
+    "type": "positive",
+    "attributes": {
+      "wildCropDropRate": 0.35,
+      "forageDropRate": 0.2
+    }
+  },
+  {
+    "code": "resilient",
+    "type": "positive",
+    "attributes": {
+      "maxhealthExtraPoints": 5,
+      "hungerrate": -0.15
+    }
+  },
+  {
+    "code": "perceptive",
+    "type": "positive",
+    "attributes": {
+      "animalSeekingRange": -0.35,
+      "oreDropRate": 0.1
+    }
+  },
+  {
+    "code": "rigid",
+    "type": "negative",
+    "attributes": {
+      "walkspeed": -0.15,
+      "miningSpeedMul": -0.1
+    }
+  },
+  {
+    "code": "entitled",
+    "type": "negative",
+    "attributes": {
+      "forageDropRate": -0.3,
+      "hungerrate": 0.25
+    }
+  },
+  {
+    "code": "stubborn",
+    "type": "negative",
+    "attributes": {
+      "walkspeed": -0.1,
+      "craftingTableSpeed": -0.15
+    }
+  },
+  {
+    "code": "materialist",
+    "type": "negative",
+    "attributes": {
+      "forageDropRate": -0.2,
+      "wildCropDropRate": -0.15
+    }
+  },
+  {
+    "code": "trusting",
+    "type": "negative",
+    "attributes": {
+      "vesselContentsDropRate": -0.2,
+      "tradingPriceModifier": 0.15
+    }
+  },
+  {
+    "code": "mercantile",
+    "type": "negative",
+    "attributes": {
+      "miningSpeedMul": -0.2,
+      "maxhealthExtraPoints": -3
+    }
+  },
+  {
+    "code": "obsessive",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.2,
+      "walkspeed": -0.1
+    }
+  },
+  {
+    "code": "institutional",
+    "type": "negative",
+    "attributes": {
+      "walkspeed": -0.15,
+      "forageDropRate": -0.25
+    }
+  },
+  {
+    "code": "independent",
+    "type": "negative",
+    "attributes": {
+      "tradingPriceModifier": 0.2,
+      "maxhealthExtraPoints": -2
+    }
+  },
+  {
+    "code": "unbound",
+    "type": "negative",
+    "attributes": {
+      "armorDurabilityLoss": 0.15,
+      "maxhealthExtraPoints": -3
+    }
+  },
+  {
+    "code": "isolated",
+    "type": "negative",
+    "attributes": {
+      "tradingPriceModifier": 0.25,
+      "vesselContentsDropRate": -0.15
+    }
+  },
+  {
+    "code": "grieving",
+    "type": "negative",
+    "attributes": {
+      "hungerrate": 0.25,
+      "miningSpeedMul": -0.15
+    }
+  }
+]

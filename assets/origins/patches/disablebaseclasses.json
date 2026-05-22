@@ -1,0 +1,44 @@
+[
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  },
+  {
+    "enabled": true,
+    "file": "game:config/characterclasses.json",
+    "op": "remove",
+    "path": "/0",
+    "side": "universal"
+  }
+]

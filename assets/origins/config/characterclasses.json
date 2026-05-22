@@ -1,0 +1,83 @@
+[
+	{
+		"code": "gloamish",
+		"traits": ["diplomatic", "educated", "refined", "rigid", "entitled"],
+		"defaultSkin": "skin1",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-face-tailor-mask" },
+			{ "type": "item", "code": "game:clothes-upperbody-tailor-blouse" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-tailor-jacket" },
+			{ "type": "item", "code": "game:clothes-lowerbody-tailor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-tailor-shoes" },
+			{ "type": "item", "code": "game:clothes-hand-tailor-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-tailor-belt" }
+		]
+	},
+	{
+		"code": "ascalen",
+		"traits": ["technical", "hardy", "precise", "stubborn", "materialist"],
+		"defaultSkin": "skin2",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
+			{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
+			{ "type": "item", "code": "game:clothes-foot-clockmaker-shoes" },
+			{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
+			{ "type": "item", "code": "game:clothes-waist-clockmaker-belt" }
+		]
+	},
+	{
+		"code": "sailen",
+		"traits": ["resourceful", "navigational", "multilingual", "trusting", "mercantile"],
+		"defaultSkin": "skin3",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
+			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
+			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
+			{ "type": "item", "code": "game:clothes-foot-hunter-boots" },
+			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" }
+		]
+	},
+	{
+		"code": "virelian",
+		"traits": ["educated", "observant", "analytical", "obsessive", "institutional"],
+		"defaultSkin": "skin4",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
+			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
+			{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" },
+			{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" },
+			{ "type": "item", "code": "game:clothes-waist-blackguard-belt" }
+		]
+	},
+	{
+		"code": "roven",
+		"traits": ["furtive", "resourceful", "navigational", "independent", "unbound"],
+		"defaultSkin": "skin5",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
+			{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
+			{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
+		]
+	},
+	{
+		"code": "mireborn",
+		"traits": ["agricultural", "resilient", "perceptive", "isolated", "grieving"],
+		"defaultSkin": "skin6",
+		"gear": [
+			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
+			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
+			{ "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
+			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
+			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" },
+			{ "type": "item", "code": "game:clothes-neck-malefactor-pendant" },
+			{ "type": "item", "code": "game:clothes-hand-malefactor-gloves" },
+			{ "type": "item", "code": "game:clothes-waist-malefactor-sash" }
+		]
+	}
+]
