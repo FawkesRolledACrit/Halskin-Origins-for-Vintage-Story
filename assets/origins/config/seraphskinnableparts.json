@@ -1,0 +1,14 @@
+[
+	{
+		code: "baseskin",
+		type: "texture",
+		variants: [
+			{ category: "gloamish", code: "pale", texture: "origins:entity/humanoid/seraphskinparts/body/gloamish-pale" },
+			{ category: "ascalen", code: "bronze", texture: "origins:entity/humanoid/seraphskinparts/body/ascalen-bronze" },
+			{ category: "sailen", code: "olive", texture: "origins:entity/humanoid/seraphskinparts/body/sailen-olive" },
+			{ category: "virelian", code: "fair", texture: "origins:entity/humanoid/seraphskinparts/body/virelian-fair" },
+			{ category: "roven", code: "weathered", texture: "origins:entity/humanoid/seraphskinparts/body/roven-weathered" },
+			{ category: "mireborn", code: "swamp", texture: "origins:entity/humanoid/seraphskinparts/body/mireborn-swamp" }
+		]
+	}
+]

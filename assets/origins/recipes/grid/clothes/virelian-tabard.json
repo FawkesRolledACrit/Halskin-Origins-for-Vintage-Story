@@ -1,0 +1,12 @@
+{
+	type: "grid",
+	ingredientPattern: "TS_,LL_",
+	ingredients: {
+		"T": { type: "item", code: "clothes-upperbodyover-tabard-black", quantity: 1 },
+		"S": { type: "item", code: "game:sewingkit", quantity: 1, toolDurabilityCost: 150 },
+		"L": { type: "item", code: "game:leather-normal-plain", quantity: 1 }
+	},
+	width: 3,
+	height: 2,
+	output: { type: "item", code: "clothes-upperbodyover-tabard-virelian" }
+}

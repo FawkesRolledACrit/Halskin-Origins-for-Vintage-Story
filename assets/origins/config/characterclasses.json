@@ -2,7 +2,6 @@
 	{
 		"code": "gloamish",
 		"traits": ["diplomatic", "educated", "refined", "rigid", "entitled"],
-		"defaultSkin": "skin1",
 		"gear": [
 			{ "type": "item", "code": "game:clothes-face-tailor-mask" },
 			{ "type": "item", "code": "game:clothes-upperbody-tailor-blouse" },
@@ -16,7 +15,6 @@
 	{
 		"code": "ascalen",
 		"traits": ["technical", "hardy", "precise", "stubborn", "materialist"],
-		"defaultSkin": "skin2",
 		"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
 			{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
@@ -29,8 +27,7 @@
 	},
 	{
 		"code": "sailen",
-		"traits": ["resourceful", "navigational", "multilingual", "trusting", "mercantile"],
-		"defaultSkin": "skin3",
+		"traits": ["diplomatic", "resourceful", "multilingual", "trusting", "mercantile"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
 			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
@@ -44,7 +41,6 @@
 	{
 		"code": "virelian",
 		"traits": ["educated", "observant", "analytical", "obsessive", "institutional"],
-		"defaultSkin": "skin4",
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
 			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
@@ -56,7 +52,6 @@
 	{
 		"code": "roven",
 		"traits": ["furtive", "resourceful", "navigational", "independent", "unbound"],
-		"defaultSkin": "skin5",
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
 			{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
@@ -68,7 +63,6 @@
 	{
 		"code": "mireborn",
 		"traits": ["agricultural", "resilient", "perceptive", "isolated", "grieving"],
-		"defaultSkin": "skin6",
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
 			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },

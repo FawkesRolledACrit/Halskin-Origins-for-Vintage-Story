@@ -1,0 +1,35 @@
+[
+  {
+    "enabled": true,
+    "file": "game:entities/humanoid/player.json",
+    "op": "replace",
+    "path": "/attributes/skinnableParts/0/variants",
+    "value": [
+      {
+        "code": "skin-gloamish",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin1"
+      },
+      {
+        "code": "skin-ascalen",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin2"
+      },
+      {
+        "code": "skin-sailen",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin3"
+      },
+      {
+        "code": "skin-virelian",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin4"
+      },
+      {
+        "code": "skin-roven",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin5"
+      },
+      {
+        "code": "skin-mireborn",
+        "texture": "game:entity/humanoid/seraphskinparts/body/skin6"
+      }
+    ],
+    "side": "Server"
+  }
+]

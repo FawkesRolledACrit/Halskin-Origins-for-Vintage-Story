@@ -1,0 +1,44 @@
+{
+	code: "clothes-upperbodyover-tabard-ascalen",
+	shape: { base: "entity/humanoid/clothes/ascalen-tabard" },
+	textures: {
+		"belt": { base: "entity/humanoid/seraphclothes/tabards/belt" },
+		"hammer_hand": { base: "entity/humanoid/seraphclothes/tabards/hammer_hand" },
+		"hammer_head": { base: "entity/humanoid/seraphclothes/tabards/hammer_head" },
+		"tabard": { base: "entity/humanoid/seraphclothes/tabards/brown_fabric" },
+		"emblem": { base: "entity/humanoid/seraphclothes/tabards/ascalen_tabard" }
+	},
+	storageFlags: 128,
+	behaviors: [
+		{ "name": "Wearable" }
+	],
+	attributes: {
+		clothescategory: "upperbodyover",
+		wearableAttachment: true,
+		wearableTexturePrefixCode: null,
+		isFoldable: true,
+		displayable: {
+			shelf: {
+				behavior: "Stacking",
+				category: "wearable-tops",
+				shape: { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
+				size: { width: 11, height: 1.5, length: 7 }
+			}
+		},
+		warmth: 2
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -180, y: -66, z: 18 },
+		origin: { x: 0.2, y: 1.36, z: 0.45 },
+		scale: 1.65
+	}
+}
