@@ -1,0 +1,11 @@
+[
+	{
+		code: "dyedcloth",
+		sealHours: 12,
+		ingredients: [
+			{ type: "item", code: "game:dye-black", litres: 2, consumeLitres: 2 },
+			{ type: "item", code: "clothes-upperbodyover-tabard-white", quantity: 1 }
+		],
+		output: { type: "item", code: "clothes-upperbodyover-tabard-black", stackSize: 1 }
+	}
+]

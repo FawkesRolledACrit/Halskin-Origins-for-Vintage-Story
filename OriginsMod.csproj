@@ -1,26 +1,47 @@
 <Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
-    <AssemblyName>origins</AssemblyName>
-    <Description>Origins Character System - Custom character creation with unique origins</Description>
-    <Version>1.0.0</Version>
-    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
-    <DebugType>portable</DebugType>
+    <LangVersion>latest</LangVersion>
+    <Nullable>enable</Nullable>
     <CopyLocalLockFileAssemblies>false</CopyLocalLockFileAssemblies>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
   </PropertyGroup>
-  
+
   <ItemGroup>
-    <Reference Include="0Harmony">
-      <HintPath>C:\Users\Fawke\AppData\Roaming\Vintagestory\Lib\0Harmony.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="VintagestoryAPI">
-      <HintPath>C:\Users\Fawke\AppData\Roaming\Vintagestory\VintagestoryAPI.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\..\..\Vintagestory\VintagestoryAPI.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="VintagestoryLib">
+      <HintPath>..\..\..\Vintagestory\VintagestoryLib.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>0Harmony.dll</HintPath>
+      <Private>false</Private>
     </Reference>
   </ItemGroup>
-  
+
+  <ItemGroup>
+    <Compile Include="src\**\*.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="modinfo.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="assets\**\*">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Link>assets\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </None>
+  </ItemGroup>
+
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(ProjectDir)..\..\..\VintageStoryData\Mods\origins\" />
+    <Exec Command="xcopy &quot;$(TargetDir)*.dll&quot; &quot;$(ProjectDir)&quot; /Y /I" />
+    <Exec Command="xcopy &quot;$(TargetDir)*.pdb&quot; &quot;$(ProjectDir)&quot; /Y /I" />
+    <Exec Command="xcopy &quot;$(TargetDir)*.json&quot; &quot;$(ProjectDir)&quot; /Y /I" />
+    <Exec Command="xcopy &quot;$(TargetDir)assets&quot; &quot;$(ProjectDir)assets&quot; /Y /I /E" />
   </Target>
+
 </Project>

@@ -18,7 +18,7 @@
 		"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-clockmaker-apron" },
 			{ "type": "item", "code": "game:clothes-upperbody-clockmaker-shirt" },
-			{ "type": "item", "code": "game:clothes-upperbodyover-clockmaker-tunic" },
+			{ "type": "item", "code": "clothes-upperbodyover-tabard-ascalen" },
 			{ "type": "item", "code": "game:clothes-lowerbody-clockmaker-pants" },
 			{ "type": "item", "code": "game:clothes-foot-clockmaker-shoes" },
 			{ "type": "item", "code": "game:clothes-hand-clockmaker-wristguard" },
@@ -32,7 +32,7 @@
 			{ "type": "item", "code": "game:clothes-head-hunter-cape" },
 			{ "type": "item", "code": "game:clothes-shoulder-hunter-poncho" },
 			{ "type": "item", "code": "game:clothes-upperbody-hunter-shirt" },
-			{ "type": "item", "code": "game:clothes-upperbodyover-hunter-coat" },
+			{ "type": "item", "code": "clothes-upperbodyover-tabard-sailen" },
 			{ "type": "item", "code": "game:clothes-lowerbody-hunter-leggings" },
 			{ "type": "item", "code": "game:clothes-foot-hunter-boots" },
 			{ "type": "item", "code": "game:clothes-hand-hunter-gloves" }
@@ -43,6 +43,7 @@
 		"traits": ["educated", "observant", "analytical", "obsessive", "institutional"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
+			{ "type": "item", "code": "clothes-upperbodyover-tabard-virelian" },
 			{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
 			{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" },
 			{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" },
@@ -65,8 +66,7 @@
 		"traits": ["agricultural", "resilient", "perceptive", "isolated", "grieving"],
 		"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-malefactor-shirt" },
-			{ "type": "item", "code": "game:clothes-upperbodyover-malefactor-tunic" },
-			{ "type": "item", "code": "game:clothes-shoulder-malefactor-cloak" },
+			{ "type": "item", "code": "clothes-upperbodyover-tabard-mireborn" },
 			{ "type": "item", "code": "game:clothes-lowerbody-malefactor-trousers" },
 			{ "type": "item", "code": "game:clothes-foot-malefactor-boots" },
 			{ "type": "item", "code": "game:clothes-neck-malefactor-pendant" },

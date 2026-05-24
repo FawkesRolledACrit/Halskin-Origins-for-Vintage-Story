@@ -1,16 +1,13 @@
 {
 	code: "clothes-upperbodyover-tabard-mireborn",
-	shape: { base: "entity/humanoid/clothes/mireborn-tabard" },
+	shape: { base: "entity/humanoid/clothes/mireborn-tabard-hooded" },
 	textures: {
 		"belt": { base: "entity/humanoid/seraphclothes/tabards/belt" },
 		"tabard": { base: "entity/humanoid/seraphclothes/tabards/white_tabard" },
 		"emblem": { base: "entity/humanoid/seraphclothes/tabards/mireborn_tabbard" }
 	},
-	storageFlags: 128,
-	behaviors: [
-		{ "name": "Wearable" }
-	],
 	attributes: {
+		disableElements: ["ponytailhigh", "hair-uncovered", "sidehigh", "sidelow", "bangs", "Hair", "Hair tile upper part"],
 		clothescategory: "upperbodyover",
 		wearableAttachment: true,
 		wearableTexturePrefixCode: null,
@@ -25,6 +22,10 @@
 		},
 		warmth: 2
 	},
+	storageFlags: 128,
+	behaviors: [
+		{ "name": "Wearable" }
+	],
 	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
 	renderAlphaTest: 0.25,
 	tpHandTransform: {
