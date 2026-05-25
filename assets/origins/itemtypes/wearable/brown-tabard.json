@@ -2,9 +2,7 @@
 	code: "clothes-upperbodyover-tabard-brown",
 	shape: { base: "entity/humanoid/clothes/mireborn-tabard" },
 	shapeByType: {
-		"ground": { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
-		"hand": { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
-		"gui": { base: "entity/humanoid/seraph/clothing/upperbody-folded" }
+		"ground": { base: "entity/humanoid/clothes/tabard-folded-brown" }
 	},
 	textures: {
 		"belt": { base: "entity/humanoid/seraphclothes/tabards/belt" },
@@ -24,7 +22,7 @@
 			shelf: {
 				behavior: "Stacking",
 				category: "wearable-tops",
-				shape: { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
+				shape: { base: "entity/humanoid/clothes/tabard-folded-brown" },
 				size: { width: 11, height: 1.5, length: 7 }
 			}
 		},

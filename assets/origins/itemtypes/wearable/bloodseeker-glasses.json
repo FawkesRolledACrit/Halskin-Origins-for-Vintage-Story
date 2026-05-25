@@ -1,11 +1,6 @@
 {
 	code: "clothes-face-bloodseeker",
 	shape: { base: "entity/humanoid/clothes/glasses_1" },
-	shapeByType: {
-		"ground": { base: "entity/humanoid/clothes/glasses_1" },
-		"hand": { base: "entity/humanoid/clothes/glasses_1" },
-		"gui": { base: "entity/humanoid/clothes/glasses_1" }
-	},
 	textures: {
 		"glasses_lens": { base: "entity/humanoid/seraphclothes/face/glasses_lens" }
 	},
