@@ -1,6 +1,5 @@
 {
 	"editor": {
-		"backDropShape": "entity/humanoid/seraph",
 		"collapsedPaths": "Root/Waist-Belt,Root/Waist-Quiver/Quiver/arrow_5,Root/Waist-Quiver/Quiver/arrow_4,Root/Waist-Quiver/Belt,Root/Waist-Quiver/Quiver/arrow_3,Root/Waist-Quiver/Quiver/arrow_2,Root/Waist-Quiver/Quiver/arrow_1,Root/Waist/buckle-bottom,Root/Waist-Quiver/Quiver/arrow_0",
 		"allAngles": false,
 		"entityTextureMode": false
