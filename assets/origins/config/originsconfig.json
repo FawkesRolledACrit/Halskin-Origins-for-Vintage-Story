@@ -1,0 +1,14 @@
+{
+  "code": "originsconfig",
+  "version": "1.0.0",
+  "domain": "origins",
+  "settings": [
+    {
+      "code": "GlassesHotkey",
+      "type": "text",
+      "default": "H",
+      "title": "Glasses Toggle Hotkey",
+      "description": "The hotkey to toggle between raised and lowered glasses"
+    }
+  ]
+}

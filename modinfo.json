@@ -9,5 +9,8 @@
   "dependencies": {
     "survival": "*"
   },
+  "optionalDependencies": {
+    "configlib": "*"
+  },
   "website": "https://mods.vintagestory.at/origins"
 }
