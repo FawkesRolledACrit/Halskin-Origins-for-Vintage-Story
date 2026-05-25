@@ -1,6 +1,9 @@
 {
 	"code": "clothes-upperbodyover-tabard-sailen",
 	"shape": { "base": "entity/humanoid/clothes/sailen-tabard" },
+	"shapeByType": {
+		"ground": { "base": "entity/humanoid/seraph/clothing/upperbody-folded" }
+	},
 	"textures": {
 		"belt": { "base": "entity/humanoid/seraphclothes/tabards/belt" },
 		"telescope_1": { "base": "entity/humanoid/seraphclothes/tabards/telescope_1" },

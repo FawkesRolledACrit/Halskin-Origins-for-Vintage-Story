@@ -1,6 +1,9 @@
 {
 	"code": "clothes-upperbodyover-tabard-blue",
 	"shape": { "base": "entity/humanoid/clothes/mireborn-tabard" },
+	"shapeByType": {
+		"ground": { "base": "entity/humanoid/seraph/clothing/upperbody-folded" }
+	},
 	"textures": {
 		"belt": { "base": "entity/humanoid/seraphclothes/tabards/belt" },
 		"tabard": { "base": "entity/humanoid/seraphclothes/tabards/blue_tabard" },

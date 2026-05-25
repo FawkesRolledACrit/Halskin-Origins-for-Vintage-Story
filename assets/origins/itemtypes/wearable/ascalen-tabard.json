@@ -1,6 +1,9 @@
 {
 	code: "clothes-upperbodyover-tabard-ascalen",
 	shape: { base: "entity/humanoid/clothes/ascalen-tabard" },
+	shapeByType: {
+		"ground": { base: "entity/humanoid/seraph/clothing/upperbody-folded" }
+	},
 	textures: {
 		"belt": { base: "entity/humanoid/seraphclothes/tabards/belt" },
 		"hammer_hand": { base: "entity/humanoid/seraphclothes/tabards/hammer_hand" },
