@@ -2,7 +2,9 @@
 	code: "clothes-upperbodyover-tabard-mireborn",
 	shape: { base: "entity/humanoid/clothes/mireborn-tabard-hooded" },
 	shapeByType: {
-		"ground": { base: "entity/humanoid/seraph/clothing/upperbody-folded" }
+		"ground": { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
+		"hand": { base: "entity/humanoid/seraph/clothing/upperbody-folded" },
+		"gui": { base: "entity/humanoid/seraph/clothing/upperbody-folded" }
 	},
 	textures: {
 		"belt": { base: "entity/humanoid/seraphclothes/tabards/belt" },

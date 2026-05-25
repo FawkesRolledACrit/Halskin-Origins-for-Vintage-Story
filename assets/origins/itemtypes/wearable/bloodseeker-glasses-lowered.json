@@ -2,7 +2,9 @@
 	code: "clothes-face-bloodseeker-lowered",
 	shape: { base: "entity/humanoid/clothes/glasses_1_lowered" },
 	shapeByType: {
-		"ground": { base: "entity/humanoid/clothes/glasses_1_lowered" }
+		"ground": { base: "entity/humanoid/clothes/glasses_1_lowered" },
+		"hand": { base: "entity/humanoid/clothes/glasses_1_lowered" },
+		"gui": { base: "entity/humanoid/clothes/glasses_1_lowered" }
 	},
 	textures: {
 		"glasses_lens": { base: "entity/humanoid/seraphclothes/face/glasses_lens" }
