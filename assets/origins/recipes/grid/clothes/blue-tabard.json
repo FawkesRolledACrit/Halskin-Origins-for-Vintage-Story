@@ -1,0 +1,11 @@
+{
+	"type": "grid",
+	"ingredientPattern": "BBB,BSB,B_B",
+	"ingredients": {
+		"B": { "type": "item", "code": "game:cloth-blue", "quantity": 1 },
+		"S": { "type": "item", "code": "game:sewingkit", "quantity": 1, "toolDurabilityCost": 100 }
+	},
+	"width": 3,
+	"height": 3,
+	"output": { "type": "item", "code": "clothes-upperbodyover-tabard-blue" }
+}

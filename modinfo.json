@@ -1,0 +1,13 @@
+{
+  "modid": "origins",
+  "name": "Origins Character System",
+  "version": "1.0.0",
+  "description": "A custom character creation system with 6 unique Origins based on Halsk lore. Each origin has distinct appearances, traits, and gameplay bonuses. Features automatic skin tone assignment with randomized variety from curated color pools matching each origin's lore.",
+  "type": "code",
+  "authors": ["Fawkes"],
+  "side": "universal",
+  "dependencies": {
+    "survival": "*"
+  },
+  "website": "https://mods.vintagestory.at/origins"
+}

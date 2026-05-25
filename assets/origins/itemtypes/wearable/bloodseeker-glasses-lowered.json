@@ -1,0 +1,30 @@
+{
+	code: "clothes-face-bloodseeker-lowered",
+	shape: { base: "entity/humanoid/clothes/glasses_1_lowered" },
+	textures: {
+		"glasses_lens": { base: "entity/humanoid/seraphclothes/face/glasses_lens" }
+	},
+	storageFlags: 128,
+	behaviors: [
+		{ "name": "Wearable" }
+	],
+	attributes: {
+		clothescategory: "face",
+		wearableAttachment: true,
+		warmth: 0
+	},
+	creativeinventory: { "general": ["*"], "items": ["*"], "clothing": ["*"] },
+	renderAlphaTest: 0.25,
+	tpHandTransform: {
+		translation: { x: -0.3, y: -0.9, z: -0.7 },
+		rotation: { x: -71, y: 180, z: 83 },
+		scale: 0.55
+	},
+	guiTransform: {
+		rotate: false,
+		translation: { x: 0, y: 0, z: 0 },
+		rotation: { x: -180, y: -66, z: 18 },
+		origin: { x: 0.2, y: 1.36, z: 0.45 },
+		scale: 1.65
+	}
+}

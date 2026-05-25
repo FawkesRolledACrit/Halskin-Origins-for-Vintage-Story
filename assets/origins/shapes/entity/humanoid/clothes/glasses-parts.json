@@ -1,0 +1,78 @@
+{
+	"editor": {
+		"backDropShape": "entity/humanoid/seraph-hairless",
+		"allAngles": false,
+		"entityTextureMode": false
+	},
+	"textureWidth": 16,
+	"textureHeight": 16,
+	"textureSizes": {
+	},
+	"textures": {
+		"glasses_frame": "entity/humanoid/seraphclothes/face/glasses_frame"
+	},
+	"elements": [
+		{
+			"name": "glasses_parts",
+			"stepParentName": "Head",
+			"from": [ 9.0, 6.0, 7.0 ],
+			"to": [ 9.0, 6.0, 7.0 ],
+			"rotationOrigin": [ 9.0, 6.0, 7.0 ],
+			"faces": {
+				"north": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"east": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"south": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"west": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"up": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+				"down": { "texture": "#null", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+			},
+			"children": [
+				{
+					"name": "side_right",
+					"from": [ -0.1, -1.2, 2.9 ],
+					"to": [ 2.9, -0.9, 3.0 ],
+					"rotationOrigin": [ -0.3, -1.2, 2.9 ],
+					"rotationY": 90.0,
+					"faces": {
+						"north": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"east": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"south": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"west": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+						"up": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 3.0, 0.5 ] },
+						"down": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 3.0, 0.5 ] }
+					}
+				},
+				{
+					"name": "lens_right",
+					"from": [ -0.3, -0.5, 0.6 ],
+					"to": [ -0.2, 0.7, 2.2 ],
+					"renderPass": 3,
+					"faces": {
+						"north": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"east": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"south": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 1.0 ] },
+						"west": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 16.0, 16.0 ], "autoUv": false },
+						"up": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 1.5 ] },
+						"down": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 1.5 ] }
+					},
+					"children": [
+						{
+							"name": "front_right_side",
+							"from": [ 0.0, 0.3, -0.6 ],
+							"to": [ 0.1, 0.6, 0.0 ],
+							"rotationOrigin": [ 0.0, 1.0, -1.0 ],
+							"faces": {
+								"north": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"east": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"south": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"west": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"up": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] },
+								"down": { "texture": "#glasses_frame", "uv": [ 0.0, 0.0, 0.5, 0.5 ] }
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

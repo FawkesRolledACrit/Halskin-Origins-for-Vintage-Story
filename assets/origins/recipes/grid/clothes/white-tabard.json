@@ -1,0 +1,11 @@
+{
+	type: "grid",
+	ingredientPattern: "WWW,WSW,W_W",
+	ingredients: {
+		"W": { type: "item", code: "game:cloth-white", quantity: 1 },
+		"S": { type: "item", code: "game:sewingkit", quantity: 1, toolDurabilityCost: 100 }
+	},
+	width: 3,
+	height: 3,
+	output: { type: "item", code: "clothes-upperbodyover-tabard-white" }
+}

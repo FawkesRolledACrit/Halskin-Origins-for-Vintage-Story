@@ -1,0 +1,29 @@
+[
+  {
+    "file": "game:entities/humanoid/player.json",
+    "op": "replace",
+    "path": "/attributes/skinnableParts/0/variants",
+    "value": [
+      { "code": "skin1", "texture": "entity/humanoid/seraphskinparts/body/skin1" },
+      { "code": "skin2", "texture": "entity/humanoid/seraphskinparts/body/skin2" },
+      { "code": "skin3", "texture": "entity/humanoid/seraphskinparts/body/skin3" },
+      { "code": "skin4", "texture": "entity/humanoid/seraphskinparts/body/skin4" },
+      { "code": "skin5", "texture": "entity/humanoid/seraphskinparts/body/skin5" },
+      { "code": "skin6", "texture": "entity/humanoid/seraphskinparts/body/skin6" },
+      { "code": "skin7", "texture": "entity/humanoid/seraphskinparts/body/skin7" },
+      { "code": "skin8", "texture": "entity/humanoid/seraphskinparts/body/skin8" },
+      { "code": "skin9", "texture": "entity/humanoid/seraphskinparts/body/skin9" },
+      { "code": "skin10", "texture": "entity/humanoid/seraphskinparts/body/skin10" },
+      { "code": "skin11", "texture": "entity/humanoid/seraphskinparts/body/skin11" },
+      { "code": "skin12", "texture": "entity/humanoid/seraphskinparts/body/skin12" },
+      { "code": "skin13", "texture": "entity/humanoid/seraphskinparts/body/skin13" },
+      { "code": "skin14", "texture": "entity/humanoid/seraphskinparts/body/skin14" },
+      { "code": "skin15", "texture": "entity/humanoid/seraphskinparts/body/skin15" },
+      { "code": "skin16", "texture": "entity/humanoid/seraphskinparts/body/skin16" },
+      { "code": "skin17", "texture": "entity/humanoid/seraphskinparts/body/skin17" },
+      { "code": "skin18", "texture": "entity/humanoid/seraphskinparts/body/skin18" },
+      { "code": "skin19", "texture": "entity/humanoid/seraphskinparts/body/skin19" },
+      { "code": "skin20", "texture": "entity/humanoid/seraphskinparts/body/skin20" }
+    ]
+  }
+]
